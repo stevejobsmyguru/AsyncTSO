@@ -1,7 +1,7 @@
 # AsyncTSO
 This Utility is meant to call Outliers Detection on Time Series Data set using MessageQueue Design and Architecture. It is believed that this utility is compatable in Linux (64 bit)and Windows (64 bit)
 
-Thew following are the steps to be follwoed
+The following are the steps to be followed:
 1) To run this Utility, You need to have R (Latest Version). 
 2)Also You need to compile KFKSDS, stsm and TSOutliers R Pacakge by unzipping the R Pacakges and "Rebuild the Pacakge one by one. ( You will have install config & jsonlite, xts/zoo  R Pacakges too)
 3) Install JDK 11.x version and run R CMD javareconf. You may need to hussle thru settings by passing javac, javah, java parameters. Pls. refer the online help by doing googling to fix the Java settings 
