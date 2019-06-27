@@ -1,0 +1,10 @@
+default:
+  Destination_MessageQueueServer_Address: 192.168.1.41
+  Destination_MessageQueueServer_PortNum: 61616
+  Type_Message_Queue_Type: activeMQ # Possible Types Supported: activeMQ, rabbitMQ
+  Incoming_Request_Queue_Name: AnomRequestQ
+  Outcoming_Response_Queue_Name: AnomResponseQ
+  Outcoming_Error_Queue_Name: AnomErrorQ
+  Retry_Request_Queue_Name: AnomRetryQ
+  Breathing_Time_Seconds_4_NextRequest: 3
+  Incoming_Request_Retry_count: 5
