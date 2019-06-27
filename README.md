@@ -3,11 +3,13 @@ This Utility is meant to call Outliers Detection on Time Series Data set using M
 
 The following are the steps to be followed:
 1) To run this Utility, You need to have R (Latest Version). 
-2)Also You need to compile KFKSDS, stsm and TSOutliers R Pacakge by unzipping the R Pacakges and "Rebuild the Pacakge one by one. ( You will have install config & jsonlite, xts/zoo  R Pacakges too)
+2)Also You need to compile KFKSDS, stsm and TSOutliers R Pacakge by unzipping the R Pacakges and "Rebuild the Pacakge one by one". ( You will have to install config & jsonlite, xts/zoo  R Pacakges too)
 3) Install JDK 11.x version and run R CMD javareconf. You may need to hussle thru settings by passing javac, javah, java parameters. Pls. refer the online help by doing googling to fix the Java settings 
 4) Download messageQueue R Package from r-forge repository; You must download rJava Pacakges. Be watchful on errors
 5) Small Hack /Tips: messageQueue Package can be directly copied to R Package location because messageQueue is trying to run some set of unit testing pacakge. It is expected to fail because it is trying to connect ActiveMQ from Author IP Address.
 6) You need to configure ActiveMQ endpoint IP Address in the config.yml file.
+7) Be patient on instaling R Package dependencies with the help of RStudio.
+8) My suggestion is to set up JAVA _HOME in Env Path. If you miss it, you will have big problem in running this code base.
 
 # Important Note
 
